@@ -1,0 +1,36 @@
+body {
+ size: 100vh;
+ display: flex;
+ justify-content: center;
+}
+
+.content {
+    display: flex;
+    background: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 16px;
+    align-content: space-between;
+}
+
+.hero{
+    font-size:48px;
+    font-weight: bolder;
+    display: flex;
+    color:#F9FAF8;
+    flex-wrap: wrap;
+}
+
+p, a {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+ul {
+    display:flex;
+    justify-content: flex-end;
+}
