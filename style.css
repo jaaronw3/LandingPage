@@ -117,6 +117,61 @@ img {
 
 .third {
     display: flex;
+    flex-direction: column;
     background: #e5e7eb;
-   justify-content: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.italictext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    text-wrap: wrap;
+    text-align: center;
+    margin: 200px;
+    margin-bottom: 10px;
+}
+
+.quoter {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 400px;
+    margin-bottom: 50px;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: none;
+    background: #3883f6;
+    color: #f9faf8;
+    margin: 80px 150px;
+    width: 1000px;
+    height: 200px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    align-content: center;
+}
+
+.call-text {
+    font-size: 18px;
+    font-weight: 900;
+    margin: 40px 40px 0 20px;
+    display: block;
+}
+
+.call-subtext {
+    margin: 0 0 40px 20px; 
+    display: block;
+}
+
+.fourth-button {
+    border: 2px solid #f9faf8;
+    align-self: center;
+    border-radius: 10px;
 }
